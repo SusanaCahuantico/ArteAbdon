@@ -1,15 +1,14 @@
 import React from "react";
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ProductList from "./components/ProductList";
 
 function App() {
+  const nombre = "susana";
   return <div>
-    <Header title="Tienda de cerámica"/>
+    <Header/>
     <main>
       <p> Bienvenidos </p>
     </main>
-    <ProductList/>
     <Footer/>
   </div>
 }
