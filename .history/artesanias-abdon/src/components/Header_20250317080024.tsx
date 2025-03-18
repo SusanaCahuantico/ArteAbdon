@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const Navbar = () => {
     return (
         <nav className="bg-blue-600 p-4">
             <ul className="flex justify-around text-white">
@@ -12,4 +12,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navbar;
