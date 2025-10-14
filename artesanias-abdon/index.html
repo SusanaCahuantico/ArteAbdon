@@ -7,58 +7,96 @@
   <meta name="description" content="Cerámica artesanal — piezas hechas a mano, cocidas a 800° y esmaltadas a 1200°. Envíos a nivel nacional." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    :root{
-      --primary:#6C2E8C; /* morado (accent) */
-      --earth-1:#F7F3EF; /* fondo claro */
-      --earth-2:#E6D7C7; /* beige */
-      --earth-3:#B79A83; /* marrón suave */
-      --text:#2B2B2B;
-    }
+:root {
+  --primary:#6C2E8C; /* morado (accent) */
+  --earth-1:#F7F3EF; /* fondo claro */
+  --earth-2:#E6D7C7; /* beige */
+  --earth-3:#B79A83; /* marrón suave */
+  --text:#2B2B2B;
+}
+
     body{background:var(--earth-1);color:var(--text)}
     .card-hover:hover img{transform:scale(1.03)}
   </style>
 </head>
 <body class="antialiased font-sans">
-  <header class="bg-white/80 backdrop-blur sticky top-0 z-40 shadow-sm">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-3">
-        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-200 to-amber-400 flex items-center justify-center text-white font-bold">A</div>
-        <div>
-          <h1 class="text-lg font-semibold">Artesanías Abdón</h1>
-          <p class="text-xs text-gray-500 -mt-1">Cerámica artesanal • Envíos nacionales</p>
-        </div>
+<header class="bg-white/90 backdrop-blur sticky top-0 z-50 shadow-md border-b border-amber-200">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+    
+    <!-- LOGO -->
+    <a href="#" class="flex items-center gap-3 group">
+<div class="w-12 h-12 rounded-full bg-gradient-to-br from-[#B55239] to-[#9C3D26] flex items-center justify-center shadow-md">
+  <img src="/jarron-white-2.png" alt="Logo Artesanías Abdón" class="w-8 h-8 object-contain" />
+</div>
+      <div>
+        <h1 class="text-xl font-bold tracking-wide text-gray-800 group-hover:text-amber-600 transition">
+          Artesanías Abdón
+        </h1>
+        <p class="text-xs text-gray-500 italic">Cerámica artesanal • Envíos nacionales</p>
+      </div>
+    </a>
+
+    <!-- NAV -->
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="#coleccion" class="text-sm font-medium text-gray-700 hover:text-amber-600 transition">Colección</a>
+      <a href="#personalizado" class="text-sm font-medium text-gray-700 hover:text-amber-600 transition">Personalizado</a>
+      <a href="#sobre-nosotros" class="text-sm font-medium text-gray-700 hover:text-amber-600 transition">Sobre Nosotros</a>
+      <a href="#contacto" class="text-sm font-medium text-gray-700 hover:text-amber-600 transition">Contacto</a>
+      
+      <!-- CTA -->
+      <a href="#coleccion" class="px-4 py-2 rounded-md bg-amber-500 text-white text-sm font-semibold shadow hover:bg-amber-600 transition">
+        Ver Colección
       </a>
 
-      <nav class="hidden md:flex items-center gap-6">
-        <a href="#coleccion" class="text-sm">Colección</a>
-        <a href="#personalizado" class="text-sm">Personalizado</a>
-        <a href="#sobre-nosotros" class="text-sm">Sobre Nosotros</a>
-        <a href="#contacto" class="text-sm">Contacto</a>
-        <button id="cartBtn" class="relative bg-white border px-3 py-1 rounded-md shadow-sm">
-          🧺 <span id="cartCount" class="ml-2 text-sm">0</span>
-        </button>
-      </nav>
+      <!-- Carrito -->
+      <button id="cartBtn" class="relative bg-white border px-3 py-1 rounded-md shadow hover:border-amber-400 transition">
+        🧺 
+        <span id="cartCount" class="ml-2 text-sm text-amber-600 font-bold">0</span>
+      </button>
+    </nav>
 
-      <div class="md:hidden">
-        <button id="mobileMenuBtn" class="p-2">☰</button>
-      </div>
+    <!-- MOBILE MENU -->
+    <div class="md:hidden">
+      <button id="mobileMenuBtn" class="p-2 text-2xl">☰</button>
     </div>
-  </header>
+  </div>
+</header>
+
 
   <main class="max-w-6xl mx-auto px-6 py-10">
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
-      <div>
-        <h2 class="text-4xl font-serif mb-4">"Piezas de cerámica hechas a mano, pensado para ti”</h2>
-        <p class="text-gray-700 mb-6">Hechas a base de arcilla, cocidas a 800° y esmaltadas a 1200°. Perfectas para decoración, regalos, coleccionistas y turistas.</p>
-        <div class="flex gap-3">
-          <a href="#coleccion" class="px-5 py-3 bg-[#B79A83] text-white rounded-md shadow">Ver colección</a>
-          <a href="#personalizado" class="px-5 py-3 border rounded-md">Pedir personalizado</a>
-        </div>
-      </div>
-      <div class="rounded-lg overflow-hidden shadow-lg">
-        <img src="/public/jarra-floral-azul.png" alt="Ceramica" class="w-full object-cover" />
-      </div>
-    </section>
+<section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16 px-6 md:px-12">
+  
+  <!-- Imagen primero en mobile -->
+  <div class="relative order-1 md:order-2 mb-8 md:mb-0">
+    <div class="rounded-xl overflow-hidden shadow-xl ring-2 ring-[#E6D3C1]">
+      <img src="/public/jarra-floral-azul.png" 
+           alt="Cerámica artesanal" 
+           class="w-full h-auto object-contain bg-[#F9F6F1]" />
+    </div>
+    <!-- Detalle decorativo -->
+    <div class="absolute -bottom-4 -right-4 w-20 h-20 md:w-24 md:h-24 bg-[#E6D3C1] rounded-full -z-10"></div>
+  </div>
+
+  <!-- Texto -->
+  <div class="order-2 md:order-1 text-center md:text-left">
+    <h2 class="text-3xl md:text-5xl font-serif mb-6 leading-tight text-gray-800">
+      Piezas de cerámica <span class="text-[#B55239]">hechas a mano</span>, pensadas para ti
+    </h2>
+    <p class="text-base md:text-lg text-gray-600 mb-8 leading-relaxed max-w-md mx-auto md:mx-0">
+      Cada pieza está elaborada con arcilla natural, cocida a <strong>800°</strong> y esmaltada a 
+      <strong>1200°</strong>. Diseños únicos que resaltan en decoración, regalos, colecciones y turismo.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+      <a href="#coleccion" class="px-6 py-3 bg-[#B55239] hover:bg-[#9C3D26] text-white font-medium rounded-lg shadow-md transition">
+        Ver colección
+      </a>
+      <a href="#personalizado" class="px-6 py-3 border-2 border-[#B55239] text-[#B55239] font-medium rounded-lg hover:bg-[#B55239] hover:text-white transition">
+        Pedir personalizado
+      </a>
+    </div>
+  </div>
+  
+</section>
 
     <section id="coleccion">
       <div class="flex items-center justify-between mb-6">
@@ -77,6 +115,16 @@
 
       <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
     </section>
+
+    <section class="overflow-x-auto flex gap-4 snap-x snap-mandatory pb-4">
+  <div class="snap-center min-w-[250px]">
+    <!-- Card producto -->
+  </div>
+  <div class="snap-center min-w-[250px]">
+    <!-- Card producto -->
+  </div>
+  <!-- ... -->
+</section>
 
     <!-- Personalizado -->
     <section id="personalizado" class="mt-12 bg-white p-6 rounded-lg shadow">

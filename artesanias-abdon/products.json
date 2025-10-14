@@ -103,51 +103,6 @@
     "nombre": "Plato Decorativo Sol",
     "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
     "medidas": "25cm diámetro",
-    "imagen": "/public/Abdon_043.jpg",
-    "precio": 100.00,
-    "stock": 3
-  },
-                {
-    "id": 4,
-    "nombre": "Plato Decorativo Sol",
-    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
-    "medidas": "25cm diámetro",
-    "imagen": "/public/Abdon_045.jpg",
-    "precio": 100.00,
-    "stock": 3
-  },
-                {
-    "id": 4,
-    "nombre": "Plato Decorativo Sol",
-    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
-    "medidas": "25cm diámetro",
-    "imagen": "/public/Abdon_046.jpg",
-    "precio": 100.00,
-    "stock": 3
-  },
-                {
-    "id": 4,
-    "nombre": "Plato Decorativo Sol",
-    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
-    "medidas": "25cm diámetro",
-    "imagen": "/public/Abdon_047.jpg",
-    "precio": 100.00,
-    "stock": 3
-  },
-                {
-    "id": 4,
-    "nombre": "Plato Decorativo Sol",
-    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
-    "medidas": "25cm diámetro",
-    "imagen": "/public/Abdon_048.jpg",
-    "precio": 100.00,
-    "stock": 3
-  },
-                {
-    "id": 4,
-    "nombre": "Plato Decorativo Sol",
-    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
-    "medidas": "25cm diámetro",
     "imagen": "/public/Abdon_049.jpg",
     "precio": 100.00,
     "stock": 3
@@ -302,6 +257,51 @@
     "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
     "medidas": "25cm diámetro",
     "imagen": "/public/IMG_1776.jpg",
+    "precio": 100.00,
+    "stock": 3
+  },
+                  {
+    "id": 4,
+    "nombre": "Plato Decorativo Sol",
+    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
+    "medidas": "25cm diámetro",
+    "imagen": "/public/Abdon_043.jpg",
+    "precio": 100.00,
+    "stock": 3
+  },
+                  {
+    "id": 4,
+    "nombre": "Plato Decorativo",
+    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
+    "medidas": "25cm diámetro",
+    "imagen": "/public/Abdon_045.jpg",
+    "precio": 80.00,
+    "stock": 3
+  },
+                {
+    "id": 4,
+    "nombre": "Plato Decorativo de flores",
+    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
+    "medidas": "25cm diámetro",
+    "imagen": "/public/Abdon_046.jpg",
+    "precio": 80.00,
+    "stock": 3
+  },
+                {
+    "id": 4,
+    "nombre": "Plato Decorativo de ave",
+    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
+    "medidas": "25cm diámetro",
+    "imagen": "/public/Abdon_047.jpg",
+    "precio": 100.00,
+    "stock": 3
+  },
+                  {
+    "id": 4,
+    "nombre": "Plato Decorativo Sol",
+    "descripcion": "Plato de cerámica decorativo, ideal para colgar en pared.",
+    "medidas": "25cm diámetro",
+    "imagen": "/public/Abdon_048.jpg",
     "precio": 100.00,
     "stock": 3
   }
